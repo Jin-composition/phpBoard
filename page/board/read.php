@@ -46,7 +46,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/phpBoard/db.php'; ?>
         <li><a href="/phpBoard/modify.php?idx=<?php echo $board[
           'idx'
         ]; ?>">[수정]</a></li>
-        <li><a href="/delete.php?idx=<?php echo $board[
+        <li><a href="/phpBoard/delete.php?idx=<?php echo $board[
           'idx'
         ]; ?>">[삭제]</a></li>
       </ul>

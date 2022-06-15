@@ -45,7 +45,7 @@
       <tbody>
         <tr>
           <td width="70"><?php echo $board['idx']; ?></td>
-          <td width="500"><a href="/phpBoard/read.php?idx=<?php echo $board[
+          <td width="500"><a href="/phpBoard/page/board/read.php?idx=<?php echo $board[
             'idx'
           ]; ?>">
           <?php echo $title; ?>
